@@ -86,4 +86,4 @@ app.use((err, req, res, next) => {
   res.status(500).send('An internal error occurred.');
 });
 
-module.exports=app;
+export default app;
